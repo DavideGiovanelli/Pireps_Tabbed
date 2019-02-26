@@ -81,7 +81,7 @@
 		3F74AA4C221EE22E000DB5BA = {
 			isa = PBXGroup;
 			children = (
-				3F74AA57221EE22E000DB5BA /* Pireps_Tabbed */,
+				3F74AA57221EE22E000DB5BA /* Pireps_v1 */,
 				3F74AA6E221EE231000DB5BA /* Pireps_TabbedTests */,
 				3F74AA79221EE232000DB5BA /* Pireps_TabbedUITests */,
 				3F74AA56221EE22E000DB5BA /* Products */,
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F74AA57221EE22E000DB5BA /* Pireps_Tabbed */ = {
+		3F74AA57221EE22E000DB5BA /* Pireps_v1 */ = {
 			isa = PBXGroup;
 			children = (
 				3F74AA58221EE22E000DB5BA /* AppDelegate.swift */,
@@ -110,7 +110,7 @@
 				3F74AA63221EE231000DB5BA /* LaunchScreen.storyboard */,
 				3F74AA66221EE231000DB5BA /* Info.plist */,
 			);
-			path = Pireps_Tabbed;
+			path = Pireps_v1;
 			sourceTree = "<group>";
 		};
 		3F74AA6E221EE231000DB5BA /* Pireps_TabbedTests */ = {
