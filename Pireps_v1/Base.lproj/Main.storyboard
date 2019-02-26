@@ -158,6 +158,61 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="10" height="15"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="bTz-l2-C9H">
+                                <rect key="frame" x="124" y="201" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUt-Y4-vxX">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qzY-uz-Rfz">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HAF-Ob-Etq">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b6a-wE-deU">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="724-OG-P7v">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9Z-Zd-esC">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="724-OG-P7v" secondAttribute="trailing" constant="16" id="9WJ-YJ-1ka"/>
+                                    <constraint firstItem="HAF-Ob-Etq" firstAttribute="leading" secondItem="bTz-l2-C9H" secondAttribute="leading" constant="16" id="B9i-5m-h0o"/>
+                                    <constraint firstAttribute="trailing" secondItem="qzY-uz-Rfz" secondAttribute="trailing" constant="16" id="BBz-X4-NKg"/>
+                                    <constraint firstAttribute="trailing" secondItem="HAF-Ob-Etq" secondAttribute="trailing" constant="16" id="DNm-nb-17r"/>
+                                    <constraint firstItem="724-OG-P7v" firstAttribute="leading" secondItem="bTz-l2-C9H" secondAttribute="leading" constant="16" id="G48-Tq-pv5"/>
+                                    <constraint firstAttribute="trailing" secondItem="H9Z-Zd-esC" secondAttribute="trailing" constant="16" id="HPS-pJ-N8H"/>
+                                    <constraint firstItem="AUt-Y4-vxX" firstAttribute="leading" secondItem="bTz-l2-C9H" secondAttribute="leading" constant="16" id="SOi-K2-Tl1"/>
+                                    <constraint firstItem="b6a-wE-deU" firstAttribute="leading" secondItem="bTz-l2-C9H" secondAttribute="leading" constant="16" id="UXQ-vl-8Lf"/>
+                                    <constraint firstAttribute="trailing" secondItem="AUt-Y4-vxX" secondAttribute="trailing" constant="16" id="YSA-hs-WF9"/>
+                                    <constraint firstAttribute="trailing" secondItem="b6a-wE-deU" secondAttribute="trailing" constant="16" id="d6M-cN-Vvg"/>
+                                    <constraint firstItem="qzY-uz-Rfz" firstAttribute="leading" secondItem="bTz-l2-C9H" secondAttribute="leading" constant="16" id="oyv-ry-NDv"/>
+                                    <constraint firstItem="H9Z-Zd-esC" firstAttribute="leading" secondItem="bTz-l2-C9H" secondAttribute="leading" constant="16" id="zdz-5S-zhN"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -193,6 +248,61 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="10" height="15"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Dk1-ka-cnj">
+                                <rect key="frame" x="80" y="195" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b8i-0y-msm">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GnS-oZ-y0O">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8VP-Tf-jJa">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwn-dX-feD">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oTD-3B-Sxm">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dzM-G7-crK">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="dzM-G7-crK" secondAttribute="trailing" constant="16" id="168-fH-A5g"/>
+                                    <constraint firstItem="oTD-3B-Sxm" firstAttribute="leading" secondItem="Dk1-ka-cnj" secondAttribute="leading" constant="16" id="2go-bs-Zdv"/>
+                                    <constraint firstItem="jwn-dX-feD" firstAttribute="leading" secondItem="Dk1-ka-cnj" secondAttribute="leading" constant="16" id="3SA-U4-l1E"/>
+                                    <constraint firstItem="8VP-Tf-jJa" firstAttribute="leading" secondItem="Dk1-ka-cnj" secondAttribute="leading" constant="16" id="64j-3O-qhJ"/>
+                                    <constraint firstItem="GnS-oZ-y0O" firstAttribute="leading" secondItem="Dk1-ka-cnj" secondAttribute="leading" constant="16" id="8rt-ak-s8n"/>
+                                    <constraint firstAttribute="trailing" secondItem="GnS-oZ-y0O" secondAttribute="trailing" constant="16" id="9XU-Qt-zlU"/>
+                                    <constraint firstItem="b8i-0y-msm" firstAttribute="leading" secondItem="Dk1-ka-cnj" secondAttribute="leading" constant="16" id="9sH-5w-SM2"/>
+                                    <constraint firstAttribute="trailing" secondItem="oTD-3B-Sxm" secondAttribute="trailing" constant="16" id="GT4-2o-url"/>
+                                    <constraint firstAttribute="trailing" secondItem="b8i-0y-msm" secondAttribute="trailing" constant="16" id="Zo3-oE-D0N"/>
+                                    <constraint firstAttribute="trailing" secondItem="8VP-Tf-jJa" secondAttribute="trailing" constant="16" id="fUV-tt-Up1"/>
+                                    <constraint firstAttribute="trailing" secondItem="jwn-dX-feD" secondAttribute="trailing" constant="16" id="fnI-Vi-ZMC"/>
+                                    <constraint firstItem="dzM-G7-crK" firstAttribute="leading" secondItem="Dk1-ka-cnj" secondAttribute="leading" constant="16" id="pa1-SB-psQ"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -228,6 +338,61 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="10" height="15"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BpV-sh-NU5">
+                                <rect key="frame" x="118" y="193" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGt-K3-0g4">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ko-GB-7Tx">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ih8-FN-llq">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wTm-Yo-1t9">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="taQ-rm-1qu">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teg-po-uhe">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="JGt-K3-0g4" secondAttribute="trailing" constant="16" id="FZK-RX-4vY"/>
+                                    <constraint firstAttribute="trailing" secondItem="ih8-FN-llq" secondAttribute="trailing" constant="16" id="IsR-AL-vl1"/>
+                                    <constraint firstAttribute="trailing" secondItem="8ko-GB-7Tx" secondAttribute="trailing" constant="16" id="JE4-Ax-JvV"/>
+                                    <constraint firstItem="taQ-rm-1qu" firstAttribute="leading" secondItem="BpV-sh-NU5" secondAttribute="leading" constant="16" id="LPo-yb-PHx"/>
+                                    <constraint firstAttribute="trailing" secondItem="teg-po-uhe" secondAttribute="trailing" constant="16" id="NBh-es-ycq"/>
+                                    <constraint firstItem="wTm-Yo-1t9" firstAttribute="leading" secondItem="BpV-sh-NU5" secondAttribute="leading" constant="16" id="ZXt-DT-Pdf"/>
+                                    <constraint firstItem="8ko-GB-7Tx" firstAttribute="leading" secondItem="BpV-sh-NU5" secondAttribute="leading" constant="16" id="aix-oy-pI0"/>
+                                    <constraint firstItem="ih8-FN-llq" firstAttribute="leading" secondItem="BpV-sh-NU5" secondAttribute="leading" constant="16" id="rHM-gd-DOP"/>
+                                    <constraint firstItem="teg-po-uhe" firstAttribute="leading" secondItem="BpV-sh-NU5" secondAttribute="leading" constant="16" id="rbr-gw-zxu"/>
+                                    <constraint firstAttribute="trailing" secondItem="taQ-rm-1qu" secondAttribute="trailing" constant="16" id="sJ1-u9-7X8"/>
+                                    <constraint firstAttribute="trailing" secondItem="wTm-Yo-1t9" secondAttribute="trailing" constant="16" id="t2G-gd-7tY"/>
+                                    <constraint firstItem="JGt-K3-0g4" firstAttribute="leading" secondItem="BpV-sh-NU5" secondAttribute="leading" constant="16" id="vbb-FB-Ydw"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -263,6 +428,61 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="10" height="15"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AAE-em-EtI">
+                                <rect key="frame" x="118" y="200" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQF-X2-eip">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U9T-1q-jxY">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zT-wH-FuN">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XSa-zr-Kkx">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKH-Rv-kbO">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ghG-gg-175">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="8zT-wH-FuN" secondAttribute="trailing" constant="16" id="4EG-0J-e8f"/>
+                                    <constraint firstItem="ghG-gg-175" firstAttribute="leading" secondItem="AAE-em-EtI" secondAttribute="leading" constant="16" id="ECA-rW-yLm"/>
+                                    <constraint firstItem="WQF-X2-eip" firstAttribute="leading" secondItem="AAE-em-EtI" secondAttribute="leading" constant="16" id="OcR-mf-PWn"/>
+                                    <constraint firstAttribute="trailing" secondItem="SKH-Rv-kbO" secondAttribute="trailing" constant="16" id="Pj2-Vx-v0g"/>
+                                    <constraint firstAttribute="trailing" secondItem="ghG-gg-175" secondAttribute="trailing" constant="16" id="YSQ-Hu-Zf3"/>
+                                    <constraint firstItem="U9T-1q-jxY" firstAttribute="leading" secondItem="AAE-em-EtI" secondAttribute="leading" constant="16" id="cLa-ze-UEI"/>
+                                    <constraint firstAttribute="trailing" secondItem="U9T-1q-jxY" secondAttribute="trailing" constant="16" id="gwK-mA-gcG"/>
+                                    <constraint firstItem="8zT-wH-FuN" firstAttribute="leading" secondItem="AAE-em-EtI" secondAttribute="leading" constant="16" id="gz8-LX-Nbg"/>
+                                    <constraint firstAttribute="trailing" secondItem="WQF-X2-eip" secondAttribute="trailing" constant="16" id="jyQ-HO-76k"/>
+                                    <constraint firstAttribute="trailing" secondItem="XSa-zr-Kkx" secondAttribute="trailing" constant="16" id="klJ-4l-LpJ"/>
+                                    <constraint firstItem="SKH-Rv-kbO" firstAttribute="leading" secondItem="AAE-em-EtI" secondAttribute="leading" constant="16" id="qiI-FN-IfK"/>
+                                    <constraint firstItem="XSa-zr-Kkx" firstAttribute="leading" secondItem="AAE-em-EtI" secondAttribute="leading" constant="16" id="vpF-OJ-yj7"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -297,6 +517,116 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="10" height="15"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7II-KO-vQ0">
+                                <rect key="frame" x="16" y="227" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eNY-Bq-61k">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Po-Ry-zLq">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0lM-i0-Ayr">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F5i-IU-lFd">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D4T-if-Cto">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="46O-k2-cIM">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="7Po-Ry-zLq" secondAttribute="trailing" constant="16" id="0kN-R8-TdN"/>
+                                    <constraint firstItem="7Po-Ry-zLq" firstAttribute="leading" secondItem="7II-KO-vQ0" secondAttribute="leading" constant="16" id="33d-6d-VKT"/>
+                                    <constraint firstItem="46O-k2-cIM" firstAttribute="leading" secondItem="7II-KO-vQ0" secondAttribute="leading" constant="16" id="7Wq-Nv-wT1"/>
+                                    <constraint firstItem="F5i-IU-lFd" firstAttribute="leading" secondItem="7II-KO-vQ0" secondAttribute="leading" constant="16" id="9Be-ry-sfd"/>
+                                    <constraint firstAttribute="trailing" secondItem="46O-k2-cIM" secondAttribute="trailing" constant="16" id="BlB-6y-Uqd"/>
+                                    <constraint firstItem="D4T-if-Cto" firstAttribute="leading" secondItem="7II-KO-vQ0" secondAttribute="leading" constant="16" id="E0H-nh-5fr"/>
+                                    <constraint firstItem="0lM-i0-Ayr" firstAttribute="leading" secondItem="7II-KO-vQ0" secondAttribute="leading" constant="16" id="Gya-eS-QHI"/>
+                                    <constraint firstAttribute="trailing" secondItem="0lM-i0-Ayr" secondAttribute="trailing" constant="16" id="Zwy-bW-Ap4"/>
+                                    <constraint firstItem="eNY-Bq-61k" firstAttribute="leading" secondItem="7II-KO-vQ0" secondAttribute="leading" constant="16" id="a8l-oi-KRi"/>
+                                    <constraint firstAttribute="trailing" secondItem="F5i-IU-lFd" secondAttribute="trailing" constant="16" id="azo-N6-Eb3"/>
+                                    <constraint firstAttribute="trailing" secondItem="eNY-Bq-61k" secondAttribute="trailing" constant="16" id="kTC-Jp-g6m"/>
+                                    <constraint firstAttribute="trailing" secondItem="D4T-if-Cto" secondAttribute="trailing" constant="16" id="lxe-pb-aSJ"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="BT9-k4-P0l">
+                                <rect key="frame" x="203" y="227" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c4B-zM-0u7">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyx-JF-Nz1">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLe-eV-uPN">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vih-78-ro5">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hF5-gk-sV6">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCa-zK-kF5">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="c4B-zM-0u7" firstAttribute="leading" secondItem="BT9-k4-P0l" secondAttribute="leading" constant="16" id="1ga-Hn-Qaw"/>
+                                    <constraint firstItem="lyx-JF-Nz1" firstAttribute="leading" secondItem="BT9-k4-P0l" secondAttribute="leading" constant="16" id="2dV-nQ-Hd8"/>
+                                    <constraint firstItem="hF5-gk-sV6" firstAttribute="leading" secondItem="BT9-k4-P0l" secondAttribute="leading" constant="16" id="3E3-ML-b45"/>
+                                    <constraint firstItem="Vih-78-ro5" firstAttribute="leading" secondItem="BT9-k4-P0l" secondAttribute="leading" constant="16" id="Idm-lP-3bF"/>
+                                    <constraint firstItem="tCa-zK-kF5" firstAttribute="leading" secondItem="BT9-k4-P0l" secondAttribute="leading" constant="16" id="K5K-Sr-NRl"/>
+                                    <constraint firstAttribute="trailing" secondItem="c4B-zM-0u7" secondAttribute="trailing" constant="16" id="Ltp-ph-qtV"/>
+                                    <constraint firstAttribute="trailing" secondItem="Vih-78-ro5" secondAttribute="trailing" constant="16" id="Znu-ia-CIG"/>
+                                    <constraint firstAttribute="trailing" secondItem="lyx-JF-Nz1" secondAttribute="trailing" constant="16" id="a8j-Vo-c75"/>
+                                    <constraint firstAttribute="trailing" secondItem="tCa-zK-kF5" secondAttribute="trailing" constant="16" id="qt7-jb-Ngc"/>
+                                    <constraint firstAttribute="trailing" secondItem="hF5-gk-sV6" secondAttribute="trailing" constant="16" id="vsN-iF-ZVi"/>
+                                    <constraint firstItem="MLe-eV-uPN" firstAttribute="leading" secondItem="BT9-k4-P0l" secondAttribute="leading" constant="16" id="w68-bU-IcI"/>
+                                    <constraint firstAttribute="trailing" secondItem="MLe-eV-uPN" secondAttribute="trailing" constant="16" id="zOv-5z-T8G"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -331,6 +661,116 @@
                                 <nil key="highlightedColor"/>
                                 <size key="shadowOffset" width="10" height="15"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="osD-Z1-2Xu">
+                                <rect key="frame" x="12" y="270" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAz-Fj-KZ5">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oY0-T8-8hC">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnJ-8l-U3R">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Fc-Pc-NDc">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fVF-ea-et5">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdV-yX-Wmd">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="oY0-T8-8hC" secondAttribute="trailing" constant="16" id="4dk-hv-Z8m"/>
+                                    <constraint firstItem="oY0-T8-8hC" firstAttribute="leading" secondItem="osD-Z1-2Xu" secondAttribute="leading" constant="16" id="5bJ-kv-zL7"/>
+                                    <constraint firstItem="kdV-yX-Wmd" firstAttribute="leading" secondItem="osD-Z1-2Xu" secondAttribute="leading" constant="16" id="CVA-FK-nwR"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Fc-Pc-NDc" secondAttribute="trailing" constant="16" id="DZt-sC-4sb"/>
+                                    <constraint firstItem="8Fc-Pc-NDc" firstAttribute="leading" secondItem="osD-Z1-2Xu" secondAttribute="leading" constant="16" id="RYs-Vz-uTT"/>
+                                    <constraint firstAttribute="trailing" secondItem="fVF-ea-et5" secondAttribute="trailing" constant="16" id="S62-8k-mXo"/>
+                                    <constraint firstItem="DAz-Fj-KZ5" firstAttribute="leading" secondItem="osD-Z1-2Xu" secondAttribute="leading" constant="16" id="Ulw-sM-mCI"/>
+                                    <constraint firstItem="fVF-ea-et5" firstAttribute="leading" secondItem="osD-Z1-2Xu" secondAttribute="leading" constant="16" id="cxK-7t-au8"/>
+                                    <constraint firstAttribute="trailing" secondItem="kdV-yX-Wmd" secondAttribute="trailing" constant="16" id="eYZ-Fo-YGf"/>
+                                    <constraint firstItem="CnJ-8l-U3R" firstAttribute="leading" secondItem="osD-Z1-2Xu" secondAttribute="leading" constant="16" id="fU9-vQ-3jY"/>
+                                    <constraint firstAttribute="trailing" secondItem="CnJ-8l-U3R" secondAttribute="trailing" constant="16" id="qJD-BP-Hdg"/>
+                                    <constraint firstAttribute="trailing" secondItem="DAz-Fj-KZ5" secondAttribute="trailing" constant="16" id="zQl-3D-EG4"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="HtK-Ju-x3n">
+                                <rect key="frame" x="161" y="208" width="139" height="230"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BGn-8h-XzB">
+                                        <rect key="frame" x="16" y="0.0" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UgY-Fd-Jus">
+                                        <rect key="frame" x="16" y="40" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dPn-aw-2SH">
+                                        <rect key="frame" x="16" y="80" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q48-d7-Hra">
+                                        <rect key="frame" x="16" y="120" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K6j-aX-7lJ">
+                                        <rect key="frame" x="16" y="160" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M9I-oM-Hqa">
+                                        <rect key="frame" x="16" y="200" width="107" height="30"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Q48-d7-Hra" secondAttribute="trailing" constant="16" id="5CW-eT-3Wd"/>
+                                    <constraint firstItem="UgY-Fd-Jus" firstAttribute="leading" secondItem="HtK-Ju-x3n" secondAttribute="leading" constant="16" id="71C-rV-4CN"/>
+                                    <constraint firstAttribute="trailing" secondItem="M9I-oM-Hqa" secondAttribute="trailing" constant="16" id="8pq-Ez-PQk"/>
+                                    <constraint firstAttribute="trailing" secondItem="K6j-aX-7lJ" secondAttribute="trailing" constant="16" id="9ud-Mn-qDg"/>
+                                    <constraint firstItem="K6j-aX-7lJ" firstAttribute="leading" secondItem="HtK-Ju-x3n" secondAttribute="leading" constant="16" id="ICZ-av-SSC"/>
+                                    <constraint firstAttribute="trailing" secondItem="BGn-8h-XzB" secondAttribute="trailing" constant="16" id="KfR-uk-4g0"/>
+                                    <constraint firstItem="Q48-d7-Hra" firstAttribute="leading" secondItem="HtK-Ju-x3n" secondAttribute="leading" constant="16" id="L82-Sq-zzd"/>
+                                    <constraint firstItem="BGn-8h-XzB" firstAttribute="leading" secondItem="HtK-Ju-x3n" secondAttribute="leading" constant="16" id="MDv-D4-LEd"/>
+                                    <constraint firstAttribute="trailing" secondItem="UgY-Fd-Jus" secondAttribute="trailing" constant="16" id="Ovt-di-mjI"/>
+                                    <constraint firstItem="dPn-aw-2SH" firstAttribute="leading" secondItem="HtK-Ju-x3n" secondAttribute="leading" constant="16" id="hyz-O3-GDF"/>
+                                    <constraint firstItem="M9I-oM-Hqa" firstAttribute="leading" secondItem="HtK-Ju-x3n" secondAttribute="leading" constant="16" id="oZs-dP-rab"/>
+                                    <constraint firstAttribute="trailing" secondItem="dPn-aw-2SH" secondAttribute="trailing" constant="16" id="u1Q-7B-Dmi"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
