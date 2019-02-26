@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F1C42EF222590A5006DA73F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F1C42EE222590A5006DA73F /* Default-568h@2x.png */; };
 		3F38DC2B221EE5EF00494538 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F38DC2A221EE5EF00494538 /* ThirdViewController.swift */; };
 		3F74AA59221EE22E000DB5BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74AA58221EE22E000DB5BA /* AppDelegate.swift */; };
 		3F74AA5B221EE22E000DB5BA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74AA5A221EE22E000DB5BA /* FirstViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F1C42EE222590A5006DA73F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		3F38DC2A221EE5EF00494538 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		3F74AA55221EE22E000DB5BA /* Pirep_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pirep_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F74AA58221EE22E000DB5BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		3F74AA4C221EE22E000DB5BA = {
 			isa = PBXGroup;
 			children = (
+				3F1C42EE222590A5006DA73F /* Default-568h@2x.png */,
 				3F74AA57221EE22E000DB5BA /* Pireps_v1 */,
 				3F74AA6E221EE231000DB5BA /* Pireps_TabbedTests */,
 				3F74AA79221EE232000DB5BA /* Pireps_TabbedUITests */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F74AA65221EE231000DB5BA /* LaunchScreen.storyboard in Resources */,
+				3F1C42EF222590A5006DA73F /* Default-568h@2x.png in Resources */,
 				3F74AA62221EE231000DB5BA /* Assets.xcassets in Resources */,
 				3F74AA60221EE22E000DB5BA /* Main.storyboard in Resources */,
 			);
@@ -441,7 +445,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Pireps_Tabbed/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pireps_v1/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,7 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Pireps_Tabbed/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Pireps_v1/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

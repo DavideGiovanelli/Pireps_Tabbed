@@ -13,7 +13,7 @@
         <!--User Settings-->
         <scene sceneID="edX-Qr-Lbn">
             <objects>
-                <viewController id="mIM-jp-loM" customClass="FirstViewController" customModule="Pireps_Tabbed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="mIM-jp-loM" customClass="FirstViewController" customModule="Pirep_V1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Acq-K7-IQP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,27 +26,78 @@
             </objects>
             <point key="canvasLocation" x="750" y="818"/>
         </scene>
-        <!--Pirep-->
+        <!--PIREPViewController-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Pireps_Tabbed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9pv-A4-QxB" userLabel="PIREPViewController" customClass="FirstViewController" customModule="Pirep_V1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbF-Tm-qId">
-                                <rect key="frame" x="16" y="99" width="150" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="SKY COVER"/>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="PIREP" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="16" y="30" width="343" height="40"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ap2-37-4DZ">
+                                <rect key="frame" x="16" y="133" width="343" height="465"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbF-Tm-qId">
+                                        <rect key="frame" x="16" y="0.0" width="311" height="69"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="SKY COVER"/>
+                                        <connections>
+                                            <segue destination="Bvv-P9-w3Y" kind="show" id="GcX-H8-UwH"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njz-n9-PsU">
+                                        <rect key="frame" x="16" y="79" width="311" height="69.5"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="ICING"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0In-wU-S9I">
+                                        <rect key="frame" x="16" y="158.5" width="311" height="69"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="TURBULENCE"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkR-Uf-Utv">
+                                        <rect key="frame" x="16" y="237.5" width="311" height="69"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="PRECIPITATION"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHV-NP-tAQ">
+                                        <rect key="frame" x="16" y="316.5" width="311" height="69.5"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="VISIBILITY"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jz-bN-ikP">
+                                        <rect key="frame" x="16" y="396" width="311" height="69"/>
+                                        <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="HAZARD"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="5jz-bN-ikP" secondAttribute="trailing" constant="16" id="3XA-t7-dBt"/>
+                                    <constraint firstItem="gHV-NP-tAQ" firstAttribute="leading" secondItem="ap2-37-4DZ" secondAttribute="leading" constant="16" id="3d8-Lt-hph"/>
+                                    <constraint firstAttribute="trailing" secondItem="0In-wU-S9I" secondAttribute="trailing" constant="16" id="9TK-Cp-eQg"/>
+                                    <constraint firstAttribute="width" secondItem="ap2-37-4DZ" secondAttribute="height" multiplier="343:465" id="ISZ-d9-6Hq"/>
+                                    <constraint firstAttribute="trailing" secondItem="HbF-Tm-qId" secondAttribute="trailing" constant="16" id="URf-FV-N92"/>
+                                    <constraint firstAttribute="trailing" secondItem="njz-n9-PsU" secondAttribute="trailing" constant="16" id="ab2-fE-1Gn"/>
+                                    <constraint firstItem="njz-n9-PsU" firstAttribute="leading" secondItem="ap2-37-4DZ" secondAttribute="leading" constant="16" id="blx-mw-dzh"/>
+                                    <constraint firstItem="0In-wU-S9I" firstAttribute="leading" secondItem="ap2-37-4DZ" secondAttribute="leading" constant="16" id="dQJ-3H-d7K"/>
+                                    <constraint firstAttribute="trailing" secondItem="gHV-NP-tAQ" secondAttribute="trailing" constant="16" id="eNH-KI-xdX"/>
+                                    <constraint firstItem="jkR-Uf-Utv" firstAttribute="leading" secondItem="ap2-37-4DZ" secondAttribute="leading" constant="16" id="fgT-d7-EWs"/>
+                                    <constraint firstAttribute="trailing" secondItem="jkR-Uf-Utv" secondAttribute="trailing" constant="16" id="kbO-n4-NzX"/>
+                                    <constraint firstItem="5jz-bN-ikP" firstAttribute="leading" secondItem="ap2-37-4DZ" secondAttribute="leading" constant="16" id="mxR-4B-rH5"/>
+                                    <constraint firstItem="HbF-Tm-qId" firstAttribute="leading" secondItem="ap2-37-4DZ" secondAttribute="leading" constant="16" id="yIq-gC-D3R"/>
+                                </constraints>
+                            </stackView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="PIREP" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="16" y="74" width="343" height="36"/>
                                 <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.39645686619718312" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="29O-IJ-v2h"/>
-                                    <constraint firstAttribute="height" constant="40" id="5s8-bE-M9W"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="rta-gk-Cgz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -56,23 +107,40 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" constant="16" id="1Sd-ia-Ee4"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="16" id="IfR-Vi-KBX"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="10" id="KHu-jH-Z58"/>
-                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="gnT-Df-VsQ"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="ap2-37-4DZ" secondAttribute="trailing" constant="16" id="3Dz-AQ-8QC"/>
+                            <constraint firstItem="ap2-37-4DZ" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="16" id="SEm-hp-EeY"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="leading" secondItem="PQr-Ze-W5v" secondAttribute="leading" constant="16" id="bBs-zo-8w9"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="trailing" secondItem="KQZ-1w-vlD" secondAttribute="trailing" constant="16" id="dEV-YU-hEx"/>
+                            <constraint firstItem="KQZ-1w-vlD" firstAttribute="top" secondItem="PQr-Ze-W5v" secondAttribute="top" constant="10" id="e5M-7H-G0B"/>
+                            <constraint firstItem="PQr-Ze-W5v" firstAttribute="bottom" secondItem="ap2-37-4DZ" secondAttribute="bottom" constant="20" id="qTt-lr-Pux"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pirep" image="first" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="UZP-en-x8A"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.60000000000002" y="-494.30284857571218"/>
+            <point key="canvasLocation" x="1688.8" y="-494.30284857571218"/>
+        </scene>
+        <!--PIREPSkycoverViewController-->
+        <scene sceneID="OkY-Kl-YKw">
+            <objects>
+                <viewController id="Bvv-P9-w3Y" userLabel="PIREPSkycoverViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Lmw-uL-aK3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="GNu-Vt-CYE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbf-lR-YtV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2778" y="-1274"/>
         </scene>
         <!--Actual Pirep-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Pireps_Tabbed" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8rJ-Kc-sve" customClass="SecondViewController" customModule="Pirep_V1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="750" y="161"/>
+            <point key="canvasLocation" x="750" y="166"/>
         </scene>
         <!--Instruction-->
         <scene sceneID="KNT-sx-6jp">
@@ -132,7 +200,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="JQb-4d-7s8" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="mIM-jp-loM" kind="relationship" relationship="viewControllers" id="qda-E5-Wrk"/>
                         <segue destination="VOI-QI-br4" kind="relationship" relationship="viewControllers" id="lyR-cZ-7Y7"/>
@@ -141,6 +209,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-457" y="395"/>
+        </scene>
+        <!--Pirep-->
+        <scene sceneID="gEa-Fe-Gbm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="JQb-4d-7s8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pirep" image="first" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LyC-iS-ECh">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="Clg-DD-bBh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="46R-iu-4VN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.60000000000002" y="-494.30284857571218"/>
         </scene>
     </scenes>
     <resources>
