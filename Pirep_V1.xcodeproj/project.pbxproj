@@ -17,6 +17,7 @@
 		3F74AA65221EE231000DB5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F74AA63221EE231000DB5BA /* LaunchScreen.storyboard */; };
 		3F74AA70221EE231000DB5BA /* Pireps_TabbedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74AA6F221EE231000DB5BA /* Pireps_TabbedTests.swift */; };
 		3F74AA7B221EE232000DB5BA /* Pireps_TabbedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F74AA7A221EE232000DB5BA /* Pireps_TabbedUITests.swift */; };
+		3FA887832225A863001063C4 /* PIREPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA887822225A863001063C4 /* PIREPViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3F74AA76221EE232000DB5BA /* Pirep_V1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pirep_V1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F74AA7A221EE232000DB5BA /* Pireps_TabbedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pireps_TabbedUITests.swift; sourceTree = "<group>"; };
 		3F74AA7C221EE232000DB5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA887822225A863001063C4 /* PIREPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PIREPViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				3F74AA5C221EE22E000DB5BA /* SecondViewController.swift */,
 				3F38DC2A221EE5EF00494538 /* ThirdViewController.swift */,
 				3F74AA5E221EE22E000DB5BA /* Main.storyboard */,
+				3FA887822225A863001063C4 /* PIREPViewController.swift */,
 				3F74AA61221EE231000DB5BA /* Assets.xcassets */,
 				3F74AA63221EE231000DB5BA /* LaunchScreen.storyboard */,
 				3F74AA66221EE231000DB5BA /* Info.plist */,
@@ -270,6 +273,7 @@
 				3F74AA59221EE22E000DB5BA /* AppDelegate.swift in Sources */,
 				3F38DC2B221EE5EF00494538 /* ThirdViewController.swift in Sources */,
 				3F74AA5B221EE22E000DB5BA /* FirstViewController.swift in Sources */,
+				3FA887832225A863001063C4 /* PIREPViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
