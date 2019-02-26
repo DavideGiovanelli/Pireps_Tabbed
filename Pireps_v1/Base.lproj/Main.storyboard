@@ -51,30 +51,45 @@
                                         <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="ICING"/>
+                                        <connections>
+                                            <segue destination="Q76-nx-qyh" kind="show" id="6ay-bT-rkt"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0In-wU-S9I">
                                         <rect key="frame" x="16" y="158.5" width="311" height="69"/>
                                         <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="TURBULENCE"/>
+                                        <connections>
+                                            <segue destination="2Zz-7K-fxP" kind="show" id="2IR-MQ-UMV"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkR-Uf-Utv">
                                         <rect key="frame" x="16" y="237.5" width="311" height="69"/>
                                         <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="PRECIPITATION"/>
+                                        <connections>
+                                            <segue destination="FWO-gf-2iV" kind="show" id="8JZ-bc-Vhh"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHV-NP-tAQ">
                                         <rect key="frame" x="16" y="316.5" width="311" height="69.5"/>
                                         <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="VISIBILITY"/>
+                                        <connections>
+                                            <segue destination="nY9-Gf-qWW" kind="show" id="J3q-RN-27A"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jz-bN-ikP">
                                         <rect key="frame" x="16" y="396" width="311" height="69"/>
                                         <color key="backgroundColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         <state key="normal" title="HAZARD"/>
+                                        <connections>
+                                            <segue destination="fmt-wl-yA4" kind="show" id="w3I-DH-g8Z"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -122,6 +137,66 @@
             </objects>
             <point key="canvasLocation" x="1688.8" y="-494.30284857571218"/>
         </scene>
+        <!--PIREPIcingViewController-->
+        <scene sceneID="Poe-2k-5mx">
+            <objects>
+                <viewController id="Q76-nx-qyh" userLabel="PIREPIcingViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="59X-nj-Qhd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Yq-2n-oZB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7uj-nU-JOU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2594" y="-694"/>
+        </scene>
+        <!--PIREPVisibilityViewController-->
+        <scene sceneID="mQj-Hs-YwS">
+            <objects>
+                <viewController id="nY9-Gf-qWW" userLabel="PIREPVisibilityViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ha9-OA-ggj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="gXW-9v-Mdz"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4Jx-sx-WlC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3292" y="-678"/>
+        </scene>
+        <!--PIREPTurbulenceViewController-->
+        <scene sceneID="jMJ-Sf-EZR">
+            <objects>
+                <viewController id="2Zz-7K-fxP" userLabel="PIREPTurbulenceViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tsT-eJ-M8v">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="8ie-1z-IGy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9cX-IN-QAb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2614" y="-14"/>
+        </scene>
+        <!--PIREPHazardViewController-->
+        <scene sceneID="WRe-bn-yrM">
+            <objects>
+                <viewController id="fmt-wl-yA4" userLabel="PIREPHazardViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2yh-bN-uob">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="z9F-wg-odf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SBd-xN-jf7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3292" y="-15"/>
+        </scene>
         <!--PIREPSkycoverViewController-->
         <scene sceneID="OkY-Kl-YKw">
             <objects>
@@ -129,13 +204,54 @@
                     <view key="view" contentMode="scaleToFill" id="Lmw-uL-aK3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" text="PIREP" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="GEb-Pj-Tso">
+                                <rect key="frame" x="16" y="103" width="343" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.39645686619999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="bAn-Fl-Qlt"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="10" height="15"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GNu-Vt-CYE"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fbf-lR-YtV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2778" y="-1274"/>
+            <point key="canvasLocation" x="2602" y="-1359"/>
+        </scene>
+        <!--PIREPPrecipitationViewController-->
+        <scene sceneID="Qyp-59-tDs">
+            <objects>
+                <viewController id="FWO-gf-2iV" userLabel="PIREPPrecipitationViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="80Q-Tb-Xdh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" text="PIREP" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="HFL-q2-hm8">
+                                <rect key="frame" x="61" y="107" width="343" height="36"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="0.39645686619999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="23y-OB-as6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="10" height="15"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Njp-Ti-Pdv"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OEo-5f-fYW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3330" y="-1338"/>
         </scene>
         <!--Actual Pirep-->
         <scene sceneID="wg7-f3-ORb">
